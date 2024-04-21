@@ -2,7 +2,7 @@
   "NextJS": {
     "repo": "sdk-next-starter",
     "guide": "",
-    "docs": "https://github.com/thirdweb-dev/react/blob/main/README.md",
+    "docs": "https://github.com/egiftcard/react/blob/main/README.md",
     "install": "npm install",
     "run": "npm run dev"
   },

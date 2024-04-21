@@ -1,7 +1,7 @@
 {
-  "name": "create-thirdweb-app",
+  "name": "create-egiftcard-app",
   "version": "0.1.0",
-  "description": "create thirdweb apps on the fly ",
+  "description": "create egiftcard apps on the fly ",
   "main": "dist/index.js",
   "license": "MIT",
   "directories": {
@@ -13,16 +13,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thirdweb-dev/create-thirdweb-app.git"
+    "url": "git+https://github.com/egiftcard/create-egiftcard-app.git"
   },
   "bin": {
-    "create-thirdweb-app": "./bin/index.js"
+    "create-egiftcard-app": "./bin/index.js"
   },
-  "author": "thirdweb <support@thirdweb.com> (https://thirdweb.com)",
+  "author": "egiftcard <support@egiftcard.com> (https://egiftcard.com)",
   "bugs": {
-    "url": "https://github.com/thirdweb-dev/create-thirdweb-app/issues"
+    "url": "https://github.com/egiftcard/create-egiftcard-app/issues"
   },
-  "homepage": "https://github.com/thirdweb-dev/create-thirdweb-app#readme",
+  "homepage": "https://github.com/egiftcard/create-egiftcard-app#readme",
   "dependencies": {
     "chalk": "4.1.2",
     "inquirer": "^8.2.0",

@@ -51,7 +51,7 @@ var args = process.argv.slice(2);
 var supportedCommands = ["-v", "--version", "-h", "--help"];
 console.clear();
 var examples = {};
-(0, node_fetch_1.default)("https://raw.githubusercontent.com/thirdweb-dev/create-thirdweb-app/main/examples.json")
+(0, node_fetch_1.default)("https://raw.githubusercontent.com/egiftcard/create-egiftcard-app/main/examples.json")
     .then(function (res) { return __awaiter(void 0, void 0, void 0, function () {
     var _a, _b, _c;
     return __generator(this, function (_d) {
@@ -173,10 +173,10 @@ var examples = {};
 function flags(flag) {
     switch (flag) {
         case "-h" || "--help":
-            console.log("Please visit  ".concat(chalk_1.default.cyan("https://github.com/thirdweb-dev/create-thirdweb-app#readme"), " to know more about the usage of this CLI."));
+            console.log("Please visit  ".concat(chalk_1.default.cyan("https://github.com/egiftcard/create-egiftcard-app#readme"), " to know more about the usage of this CLI."));
             break;
         case "-v" || "--version":
-            console.log("".concat(chalk_1.default.cyan("create-thirdweb-app"), " ").concat(chalk_1.default.green(require(path_1.default.resolve(__dirname, "../package.json")).version)));
+            console.log("".concat(chalk_1.default.cyan("create-egiftcard-app"), " ").concat(chalk_1.default.green(require(path_1.default.resolve(__dirname, "../package.json")).version)));
             break;
         default:
             console.log(chalk_1.default.red("Unexpected flag:", flag));

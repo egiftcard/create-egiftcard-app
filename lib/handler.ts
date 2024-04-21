@@ -73,7 +73,7 @@ export async function handler(lang: string, name: string) {
         );
         console.log(
           "Stuck somewhere? Join our discord at " +
-            chalk.green(`https://discord.gg/thirdweb`)
+            chalk.green(`https://discord.gg/egiftcard`)
         );
       } else {
         console.log(chalk.red("Operation cancelled by user"));
@@ -91,7 +91,7 @@ export async function handler(lang: string, name: string) {
 }
 async function download(repo: string, path: string, name: string) {
   const res = (await fetch(
-    `https://codeload.github.com/thirdweb-dev/${repo}/zip/refs/heads/main`
+    `https://codeload.github.com/egiftcard/${repo}/zip/refs/heads/main`
   )) as any;
   const fileStream = fs.createWriteStream(`${__dirname}/${name}.zip`);
   await new Promise((resolve, reject) => {

@@ -13,7 +13,7 @@ const supportedCommands: string[] = ["-v", "--version", "-h", "--help"];
 console.clear();
 let examples: any = {};
 fetch(
-  "https://raw.githubusercontent.com/thirdweb-dev/create-thirdweb-app/main/examples.json"
+  "https://raw.githubusercontent.com/egiftcard/create-egiftcard-app/main/examples.json"
 )
   .then(async (res) => {
     fs.writeFile(
@@ -112,14 +112,14 @@ function flags(flag: string) {
     case "-h" || "--help":
       console.log(
         `Please visit  ${chalk.cyan(
-          "https://github.com/thirdweb-dev/create-thirdweb-app#readme"
+          "https://github.com/egiftcard/create-egiftcard-app#readme"
         )} to know more about the usage of this CLI.`
       );
       break;
 
     case "-v" || "--version":
       console.log(
-        `${chalk.cyan("create-thirdweb-app")} ${chalk.green(
+        `${chalk.cyan("create-egiftcard-app")} ${chalk.green(
           require(path.resolve(__dirname, "../package.json")).version
         )}`
       );

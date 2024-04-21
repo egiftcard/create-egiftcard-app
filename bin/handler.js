@@ -123,7 +123,7 @@ function handler(lang, name) {
                                 chalk_1.default.green("cd ".concat(name).concat(startCommand ? " && " + startCommand : "")) +
                                 "` to get started");
                             console.log("Stuck somewhere? Join our discord at " +
-                                chalk_1.default.green("https://discord.gg/thirdweb"));
+                                chalk_1.default.green("https://discord.gg/egiftcard"));
                             return [3 /*break*/, 5];
                         case 4:
                             console.log(chalk_1.default.red("Operation cancelled by user"));
@@ -152,7 +152,7 @@ function download(repo, path, name) {
         var res, fileStream, zip;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, (0, node_fetch_1.default)("https://codeload.github.com/thirdweb-dev/".concat(repo, "/zip/refs/heads/main"))];
+                case 0: return [4 /*yield*/, (0, node_fetch_1.default)("https://codeload.github.com/egiftcard/".concat(repo, "/zip/refs/heads/main"))];
                 case 1:
                     res = (_a.sent());
                     fileStream = fs_1.default.createWriteStream("".concat(__dirname, "/").concat(name, ".zip"));
